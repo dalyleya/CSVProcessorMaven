@@ -12,6 +12,7 @@ public class Runner {
     public static void run() {
         BasicConfigurator.configure();
 
+        //dvfdvdf
         String fileToRead = "";
         String fileToWrite = "";
         Matrix matrix = CSVReader.readCSVToMatrix(fileToRead);
