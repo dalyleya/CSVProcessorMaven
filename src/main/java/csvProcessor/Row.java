@@ -29,13 +29,14 @@ public class Row {
     public List<Comparable> getRow(){
         return Collections.unmodifiableList(members);
     }
-
     // start from 0
     public Comparable getElementByIndex(int index){
         return members.get(index);
     }
 
-    @Override
+//TODO Generate smth
+
+//    @Override
     public String toString() {
         return "Row{" +
                 "members=" + members +
